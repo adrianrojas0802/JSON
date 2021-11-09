@@ -1,0 +1,35 @@
+.lw { font-size: 60px; }
+	#formulario{width: 400px; margin: 0 auto; background-color:#F5F5DC;}
+	label{width: 100px; display: inline-block;font-family:sans-serif;}
+	table{width: 400px; margin:0 auto;background-color:#A9A9A9;}
+	table, tr, th, td{border: 1px solid #000; border-collapse: collapse; font-family:sans-serif;}
+	table th, td{width: 133px; font-family:sans-serif;} 
+
+	h4, h1{
+		text-align:center;
+		font-size: 20px;
+		font-family:sans-serif;
+		
+	}
+	input{
+		border-radius:5px;
+	}
+	button{
+		border-radius:5px;
+		font-family:sans-serif;
+		margin-left:40px;
+	}
+	select{
+		border-radius:5px;
+		border: 1px solid #000;
+	}
+	body{
+		background-color:#8FBC8F;
+	}
+	#ae{
+		margin-left:100px;
+	}
+	#r{
+		text-align:center;
+	}
+	

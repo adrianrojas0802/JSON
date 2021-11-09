@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EJXAMEN SEGUNDO PARCIAL</title>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+</head>
+<body>
+  <h1>EXAMEN</h1>
+  <hr />
+  <div id="formulario">
+	<fieldset>
+		<legend>Datos personales</legend>
+		<label>Nombre:</label>
+        <input id="nombre" type="text" name="nombre" onchange="agregarNombre(this)"/>
+		<br/><br/>
+		<label>Edad:</label>
+        <input type="number" name="edad" onchange="agregarEdad(this)"/>
+		<br/><br/>
+		<label>Telefono:</label>
+        <input type="number" name="telefono" onchange="agregarTel(this)"/>
+		<br/><br/>
+		<div id="ae">
+			<label>Actualizar/Eliminar:</label>
+			<br/><br/>
+			<input id="actualizarEliminar" type="number"/>
+			<br/><br/>
+		</div>
+		<button onclick="agregar();">Agregar</button>
+	<!--	<button onclick="mostrar();">Mostrar</button> -->
+        <button onclick="actu();">Actualizar</button>
+		<button onclick="eliminar();">Eliminar</button>
+	</fieldset>
+    <fieldset>
+		<legend>Buscar</legend>
+		<label>Nombre:</label>
+        <input id="nb" type="text" name="nombre" onchange="agregarNombre(this)"/>
+		<button onclick="buscar();">Buscar</button>
+    </fieldset>
+  </div>
+  <hr/>
+  <h4>Resultados</h4>
+  <table>
+	<tr>
+		<th>Nombre</th>
+		<th>Edad</th>
+		<th>Telefono</th>
+	</tr>
+  </table>
+  <table id="resultado1"></table>
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
