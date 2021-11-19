@@ -1,7 +1,7 @@
 .lw { font-size: 60px; }
-	#formulario{width: 400px; margin: 0 auto; background-color:#008080;}
+	#formulario{width: 400px; margin: 0 auto; background-color:#00ffff;}
 	label{width: 100px; display: inline-block;font-family:sans-serif;}
-	table{width: 400px; margin:0 auto;background-color:#A9A9A9;}
+	table{width: 400px; margin:0 auto;background-color:#00ffff;}
 	table, tr, th, td{border: 1px solid #000; border-collapse: collapse; font-family:sans-serif;}
 	table th, td{width: 133px; font-family:sans-serif;} 
 
@@ -24,7 +24,7 @@
 		border: 1px solid #000;
 	}
 	body{
-		background-color:#8FBC8F;
+		background-color:#008080;
 	}
 	#ae{
 		margin-left:100px;
